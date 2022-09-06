@@ -42,3 +42,6 @@ h2 {
     margin-left: 0;
     margin-bottom: 25px;
 }
+.tip::before {
+    content: "Hello!!!";
+}
