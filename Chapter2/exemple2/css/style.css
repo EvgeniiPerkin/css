@@ -45,3 +45,7 @@ h2 {
 .tip::before {
     content: "Hello!!!";
 }
+::selection {
+    color: #20dfa6;
+    background-color: #2a4dbe;
+}
