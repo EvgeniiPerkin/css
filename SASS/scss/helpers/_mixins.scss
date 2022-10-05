@@ -1,0 +1,43 @@
+@mixin flex {
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin rotate($deg) {
+    -webkit-transform: rotate(#{$deg}deg);
+    -ms-transform: rotate(#{$deg}deg);
+    transform: rotate(#{$deg}deg);
+}
+
+@mixin text($size, $line-height: null, $weight: null, $color: red) {
+    font-size: $size;
+    line-height: $line-height;
+    font-weight: $wight;
+    color: $color; 
+}
+
+@mixin mq-small {
+    @media (min-width: $screen-small) and (max-width: $screen-medium - 1px) {
+        @content;
+    }
+}
+@mixin mq-small-up {
+    @media (min-width: $screen-small) {
+        @content;
+    }
+}
+@mixin mq-medium {
+    @media (min-width: $screen-medium) and (max-width: $screen-larger - 1px) {
+        @content;
+    }
+}
+@mixin mq-medium-up {
+    @media (max-width: $screen-medium) {
+        @content;
+    }
+}
+@mixin mq-large-up {
+    @media (max-width: $screen-larger) {
+        @content;
+    }
+}

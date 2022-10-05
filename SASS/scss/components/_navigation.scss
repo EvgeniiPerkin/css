@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+    li {
+        width: 30%;
+        background-color: $page-background;
+        padding: 5px;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
