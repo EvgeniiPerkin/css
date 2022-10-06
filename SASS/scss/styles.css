@@ -1,0 +1,61 @@
+body {
+  font-family: "Palatino Linotype", Baskerville, serif;
+}
+
+h1, h2, h3 {
+  font-family: "Varela Round", Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  background-color: #06888A;
+  border: 6px solid #FDC149;
+}
+
+h1 {
+  transform: rotate(3deg);
+  font-size: 1.25em;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #FF0000;
+}
+
+h2 {
+  font-size: 2em;
+  color: red;
+}
+
+h3 {
+  font-size: 1.25em;
+  line-height: 1.2;
+  color: red;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.2;
+  font-weight: normal;
+  color: red;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.nav li {
+  width: 30%;
+  background-color: #FFEED5;
+  padding: 5px;
+  text-align: center;
+}
+.nav a {
+  text-decoration: none;
+}
+.nav a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=styles.css.map */

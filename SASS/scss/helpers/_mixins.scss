@@ -12,7 +12,7 @@
 @mixin text($size, $line-height: null, $weight: null, $color: red) {
     font-size: $size;
     line-height: $line-height;
-    font-weight: $wight;
+    font-weight: $weight;
     color: $color; 
 }
 
